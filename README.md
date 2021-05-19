@@ -26,3 +26,12 @@
      
          DNAT is used by an external host to initiate connection with a private network. So, it translates the public IP address 
      of an external host to the private IP of internal Host. DNAT can also translate destination port in TCP/UDP headers.
+
+### ARP - Address Resolution Protocol
+
+     Address Resolution Protocol is the Dynamic mapping technique used for mapping the logical address to a physical address, i.e.
+     ARP accepts the logical address from the IP protocol and maps the address to the corresponding physical address and then pass
+     it to the data link layer.
+     
+        ARP finds the hardware address, also known as Media Access Control (MAC) address, of a host from its known IP address. 
+     ARP maintains a cache (table) in which MAC addresses are mapped to IP addresses.
