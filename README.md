@@ -1,14 +1,14 @@
-# VMWare_Network
+# _VMWare_Network_
 
 
-### Default Gateway in IP address
+### _Default Gateway in IP address_
 
     A default gateway is an IP address that is specified in a device to enable it to communicate with
     other devices that are not in the same network.Normally it is an address of the router interface 
     that is connected to a network.The default gateway is always same as the IP address, the last byte
     or number is changed.
 
-### SNAT - Source Network Address Translation
+### _SNAT - Source Network Address Translation_
 
      A Secure Network Address Translation (SNAT) is an object that maps the source client IP address in
      a request to a translation address defined on the BIG-IP device. A SNAT can be used by itself to 
@@ -20,7 +20,7 @@
      network host to the external network address and port number of the device, thereby hiding the 
      internal IP addresses or sharing the limited IP addresses.
 
-### DNAT - Destination Network Address Translation
+### _DNAT - Destination Network Address Translation_
 
      Destination network address translation (DNAT) is a technique for transparently changing the
      destination IP address of anend route packet and performing the inverse function for any replies.
@@ -30,7 +30,7 @@
      translates the public IP address of an external host to the private IP of internal Host.
      DNAT can also translate destination port in TCP/UDP headers.
 
-### ARP - Address Resolution Protocol
+### _ARP - Address Resolution Protocol_
 
      Address Resolution Protocol is the Dynamic mapping technique used for mapping the logical address
      to a physical address, i.e.ARP accepts the logical address from the IP protocol and maps the address
@@ -39,7 +39,7 @@
         ARP finds the hardware address, also known as Media Access Control (MAC) address, of a host from
      its known IP address.ARP maintains a cache (table) in which MAC addresses are mapped to IP addresses.
 
-### Assign IP to nodes
+### _Assign IP to nodes_
 
 
      A.192.168.101.2/24     B.192.168.101.3/24      C.192.168.102.2/24     D.192.168.102.3/24
