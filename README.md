@@ -38,3 +38,37 @@
      
         ARP finds the hardware address, also known as Media Access Control (MAC) address, of a host from
      its known IP address.ARP maintains a cache (table) in which MAC addresses are mapped to IP addresses.
+
+### Assign IP to nodes
+
+    A.192.168.101.2/24
+    B.192.168.101.3/24
+    C.192.168.102.2/24
+    D.192.168.102.3/24
+    
+    1. We will set L3 configuration for subnet 192.168.101.0/24 and 192.168.102.0/24 with below mentioned IP's.
+        
+    *Subnet: 192.168.101.0/24
+     Interface IP: 192.168.101.1
+     Default Gateway: 192.168.101.254
+    
+    *Subnet: 192.168.102.0/24
+     Interface IP: 192.168.102.1
+     Default Gateway: 192.168.102.254
+    
+    2.L2 configuration roadmap
+    
+        * Configure interface-based VLAN assignment on the switch for Layer 2 forwarding.
+        * Providing port range for each VLAN id.
+        * Configure the router as the gateway of users to implement Layer 3 forwarding acrossnetwork segments
+         through sub-interfaces or VLANIF interfaces.
+        * Configure the router as the DHCP server to assign IP addresses to users.
+        * Connecting A,B,C,D to the corresponding VLAN id.
+        * A,B,C,D will pick up IP from DHCP.
+
+    3.IP Assignment
+        
+        As per the CIDR value, 255.255.255.0 as it is under /24 subnet mask.
+        All the machines will assign IP from the range of 101.2 - 101.254 & 102.2 - 102.254 automatically.
+    
+    
