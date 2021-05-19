@@ -66,8 +66,8 @@
 
     3.IP Assignment
         
-        * As per the CIDR value, 255.255.255.0 as it is under /24 subnet mask.
-        * All the machines will assign IP from the range of 101.2 - 101.254 & 
-        102.2 - 102.254 automatically.
+        - As per the CIDR value, 255.255.255.0 as it is under /24 subnet mask.
+        - All the machines will assign IP from the range of 101.2 - 101.254 & 
+          102.2 - 102.254 automatically.
     
     
