@@ -46,11 +46,11 @@
     1. We will set L3 configuration for subnet 192.168.101.0/24 and 192.168.102.0/24 with below
        mentioned IP's.
         
-     - Subnet: 192.168.101.0/24
+     :- Subnet: 192.168.101.0/24
        Interface IP: 192.168.101.1
        Default Gateway: 192.168.101.254
     
-    -  Subnet: 192.168.102.0/24
+     :- Subnet: 192.168.102.0/24
        Interface IP: 192.168.102.1
        Default Gateway: 192.168.102.254
     
