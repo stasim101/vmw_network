@@ -64,7 +64,7 @@
         - Connecting A,B,C,D to the corresponding VLAN id.
         - A,B,C,D will pick up IP from DHCP.
 
-    3.IP Assignment
+    3.IP assignment
         
         - As per the CIDR value, 255.255.255.0 as it is under /24 subnet mask.
         - All the machines will assign IP from the range of 101.2 - 101.254 & 
