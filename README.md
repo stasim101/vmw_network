@@ -22,4 +22,8 @@
 
      Destination network address translation (DNAT) is a technique for transparently changing the destination IP address of an
      end route packet and performing the inverse function for any replies. Any router situated between two endpoints can perform
-     this transformation of the packet
+     this transformation of the packet.
+     
+     Destination Network Address Translation is used by an external host to initiate connection with a private network. So, it 
+     translates the public IP address of an external host to the private IP of internal Host. DNAT can also translate destination 
+     port in TCP/UDP headers.
