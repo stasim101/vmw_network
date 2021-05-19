@@ -17,3 +17,9 @@
           SNAT translates source IP addresses by replacing the IP address and port number of the internal network host to the
      external network address and port number of the device， thereby hiding the internal IP addresses or sharing the limited
      IP addresses.
+
+### DNAT - Destination Network Address Translation
+
+     Destination network address translation (DNAT) is a technique for transparently changing the destination IP address of an
+     end route packet and performing the inverse function for any replies. Any router situated between two endpoints can perform
+     this transformation of the packet
