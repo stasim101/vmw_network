@@ -40,6 +40,7 @@
      its known IP address.ARP maintains a cache (table) in which MAC addresses are mapped to IP addresses.
 
 ### Assign IP to nodes
+~~~
 
      A.192.168.101.2/24     B.192.168.101.3/24      C.192.168.102.2/24     D.192.168.102.3/24
     
@@ -70,4 +71,5 @@
         - All the machines will assign IP from the range of 101.2 - 101.254 & 
           102.2 - 102.254 automatically.
     
-    
+ ~~~
+
