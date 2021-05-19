@@ -37,4 +37,4 @@
      to the corresponding physical address and then pass it to the data link layer.
      
         ARP finds the hardware address, also known as Media Access Control (MAC) address, of a host from
-        its known IP address.ARP maintains a cache (table) in which MAC addresses are mapped to IP addresses.
+     its known IP address.ARP maintains a cache (table) in which MAC addresses are mapped to IP addresses.
